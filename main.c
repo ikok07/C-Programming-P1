@@ -3,22 +3,18 @@
 //
 
 #include <stdio.h>
+#include <string.h>
 
-int recursion(int num, int digit) {
-    int totalAppearancesSoFar;
-    if (num < 10) return num != digit;
-    totalAppearancesSoFar = recursion(num / 10, digit);
-
-    if (totalAppearancesSoFar == 1) {
-        if (num % 10 == digit) return 0;
-        return 1;
-    } else {
-        if (num % 10 == digit) return 1;
-        return 0;
-    }
-}
+typedef struct info {
+    char firstName[20];
+    int age;
+} Info;
 
 int main() {
-    int result = recursion(124, 2);
-    printf("Result: %d\n", result);
+    Info test = {"asd", 2};
+    Info *ptrTest = &test;
+    printf("%d", test.age);
+
+    ptrTest->age = 3;
+
 }

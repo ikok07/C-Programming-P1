@@ -15,4 +15,6 @@ add_executable(helloWorld utils/averageGrade.c
         utils/strtrim.c
         utils/printSequences.c
         utils/checkForEvenDigits.c
-        utils/evaluateDigits.c)
+        utils/evaluateDigits.c
+        utils/nextDay_structs.c
+        utils/rationalNumbers.c)
