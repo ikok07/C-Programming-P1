@@ -139,6 +139,30 @@ build CMakeFiles/helloWorld.dir/utils/rationalNumbers.c.o: C_COMPILER__helloWorl
   OBJECT_DIR = CMakeFiles/helloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles/helloWorld.dir/utils
 
+build CMakeFiles/helloWorld.dir/utils/fileOperations.c.o: C_COMPILER__helloWorld_unscanned_Debug /Users/macos/CLionProjects/helloWorld/utils/fileOperations.c || cmake_object_order_depends_target_helloWorld
+  DEP_FILE = CMakeFiles/helloWorld.dir/utils/fileOperations.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/helloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/helloWorld.dir/utils
+
+build CMakeFiles/helloWorld.dir/utils/fileTest.c.o: C_COMPILER__helloWorld_unscanned_Debug /Users/macos/CLionProjects/helloWorld/utils/fileTest.c || cmake_object_order_depends_target_helloWorld
+  DEP_FILE = CMakeFiles/helloWorld.dir/utils/fileTest.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/helloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/helloWorld.dir/utils
+
+build CMakeFiles/helloWorld.dir/utils/swapTwoVarsWithoutThird.c.o: C_COMPILER__helloWorld_unscanned_Debug /Users/macos/CLionProjects/helloWorld/utils/swapTwoVarsWithoutThird.c || cmake_object_order_depends_target_helloWorld
+  DEP_FILE = CMakeFiles/helloWorld.dir/utils/swapTwoVarsWithoutThird.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/helloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/helloWorld.dir/utils
+
+build CMakeFiles/helloWorld.dir/utils/swapTwoArrays.c.o: C_COMPILER__helloWorld_unscanned_Debug /Users/macos/CLionProjects/helloWorld/utils/swapTwoArrays.c || cmake_object_order_depends_target_helloWorld
+  DEP_FILE = CMakeFiles/helloWorld.dir/utils/swapTwoArrays.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/helloWorld.dir
+  OBJECT_FILE_DIR = CMakeFiles/helloWorld.dir/utils
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target helloWorld
@@ -147,7 +171,7 @@ build CMakeFiles/helloWorld.dir/utils/rationalNumbers.c.o: C_COMPILER__helloWorl
 #############################################
 # Link the executable helloWorld
 
-build helloWorld: C_EXECUTABLE_LINKER__helloWorld_Debug CMakeFiles/helloWorld.dir/utils/averageGrade.c.o CMakeFiles/helloWorld.dir/utils/nextDay.c.o CMakeFiles/helloWorld.dir/main.c.o CMakeFiles/helloWorld.dir/utils/getDigitFromNumber.c.o CMakeFiles/helloWorld.dir/utils/toLowerAndUpper.c.o CMakeFiles/helloWorld.dir/utils/charsToInt.c.o CMakeFiles/helloWorld.dir/utils/sumOfDivisors.c.o CMakeFiles/helloWorld.dir/utils/rotateArrayLeft.c.o CMakeFiles/helloWorld.dir/utils/rotateArrayRight.c.o CMakeFiles/helloWorld.dir/utils/strtrim.c.o CMakeFiles/helloWorld.dir/utils/printSequences.c.o CMakeFiles/helloWorld.dir/utils/checkForEvenDigits.c.o CMakeFiles/helloWorld.dir/utils/evaluateDigits.c.o CMakeFiles/helloWorld.dir/utils/nextDay_structs.c.o CMakeFiles/helloWorld.dir/utils/rationalNumbers.c.o
+build helloWorld: C_EXECUTABLE_LINKER__helloWorld_Debug CMakeFiles/helloWorld.dir/utils/averageGrade.c.o CMakeFiles/helloWorld.dir/utils/nextDay.c.o CMakeFiles/helloWorld.dir/main.c.o CMakeFiles/helloWorld.dir/utils/getDigitFromNumber.c.o CMakeFiles/helloWorld.dir/utils/toLowerAndUpper.c.o CMakeFiles/helloWorld.dir/utils/charsToInt.c.o CMakeFiles/helloWorld.dir/utils/sumOfDivisors.c.o CMakeFiles/helloWorld.dir/utils/rotateArrayLeft.c.o CMakeFiles/helloWorld.dir/utils/rotateArrayRight.c.o CMakeFiles/helloWorld.dir/utils/strtrim.c.o CMakeFiles/helloWorld.dir/utils/printSequences.c.o CMakeFiles/helloWorld.dir/utils/checkForEvenDigits.c.o CMakeFiles/helloWorld.dir/utils/evaluateDigits.c.o CMakeFiles/helloWorld.dir/utils/nextDay_structs.c.o CMakeFiles/helloWorld.dir/utils/rationalNumbers.c.o CMakeFiles/helloWorld.dir/utils/fileOperations.c.o CMakeFiles/helloWorld.dir/utils/fileTest.c.o CMakeFiles/helloWorld.dir/utils/swapTwoVarsWithoutThird.c.o CMakeFiles/helloWorld.dir/utils/swapTwoArrays.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   OBJECT_DIR = CMakeFiles/helloWorld.dir
   POST_BUILD = :

@@ -63,7 +63,11 @@
 				11,
 				12,
 				13,
-				14
+				14,
+				15,
+				16,
+				17,
+				18
 			]
 		}
 	],
@@ -110,7 +114,11 @@
 				11,
 				12,
 				13,
-				14
+				14,
+				15,
+				16,
+				17,
+				18
 			]
 		}
 	],
@@ -204,6 +212,30 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "utils/rationalNumbers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utils/fileOperations.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utils/fileTest.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utils/swapTwoVarsWithoutThird.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "utils/swapTwoArrays.c",
 			"sourceGroupIndex" : 0
 		}
 	],
